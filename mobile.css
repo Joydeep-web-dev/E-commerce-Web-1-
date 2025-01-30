@@ -1,0 +1,376 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body,
+html {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.fake-top-container-all .fake-top-con .fake-navbar-con .fake-navbar {
+    color: white;
+    background-color: white
+}
+
+.fake-navbar a {
+    font-size: 18px;
+    text-decoration: none;
+    float: left;
+    padding: 14px;
+    color: rgb(232, 213, 213);
+}
+
+.fake-navbar {
+    overflow: hidden;
+
+}
+
+.fake-navbar-con {
+    padding: 0px;
+    margin: 0px;
+}
+
+.top-container-all {
+    width: 100%;
+    position: fixed;
+}
+
+.top-con {
+    width: 100%;
+    height: 12%;
+    background-color: black;
+    color: white;
+}
+
+.brandname {
+    display: inline-block;
+    padding: 11px;
+}
+
+#brandname1 {
+    font-size: 25px;
+}
+
+#for-loca {
+    width: fit-content;
+    height: fit-content;
+}
+
+.location-img {
+    width: 45px;
+    height: 25px;
+}
+
+.form {
+    width: 100%;
+    width: 570px;
+    height: 18px;
+    background: white;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.input-of-search {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    padding: 6px;
+    font-size: 19px;
+}
+
+.image-search {
+    width: 20px;
+
+}
+
+.button-search {
+    border: 0;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#selector {
+    border-right: 2px solid black;
+    padding: 5px;
+}
+
+#item {
+    width: fit-content;
+    text-align: center;
+    border: none;
+    padding-left: 0%;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#search-container {
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+#lan {
+    border: 2px solid white;
+    height: 40px;
+    width: 90px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+.language {
+    font-size: 19px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    padding: 2px;
+}
+
+.cart-img {
+    width: 54px;
+    height: 54px;
+    translate: 0px 16px;
+}
+
+#cart-container p {
+    padding-left: 20px;
+}
+
+#cart-container {
+    padding-left: 20px;
+}
+
+#returns {
+    padding-left: 27px;
+    padding-top: 17px;
+}
+
+.return {
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    height: fit-content;
+    align-items: center;
+}
+
+.navbar a {
+    font-size: 18px;
+    text-decoration: none;
+    float: left;
+    padding: 14px;
+    color: white;
+    transition: o.1 ease transform;
+}
+
+.navbar a:hover {
+    transform: scale(0.9);
+    border: 1px solid white;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(66, 66, 111);
+    ;
+
+}
+
+.navbar-con {
+    padding: 0px;
+    margin: 0px;
+}
+
+.todays-deal {
+    background-color: white;
+    width: 100%;
+    height: fit-content;
+}
+
+.todays-deal-heading {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    font-weight: 700;
+    background-color: rgb(221, 110, 36);
+}
+
+.deal-1 {
+    display: flex;
+    margin-left: 7%;
+    margin-right: 6%;
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+}
+
+.deal-1 img {
+    background-size: 100% 100%;
+    padding: 4px;
+}
+
+.deal-2 {
+    display: flex;
+    margin-left: 7%;
+    margin-right: 6%;
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+}
+
+.deal-2 img {
+    background-size: 100% 100%;
+    padding: 4px;
+}
+
+.recommended {
+    width: 100%;
+    height: fit-content;
+    margin-top: 35px;
+    background-color: white;
+}
+
+.Recommended-headline {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    font-weight: 700;
+    background-color: rgb(221, 110, 36);
+}
+
+.recommended-mobiles {
+    width: 87%;
+    height: 300px;
+    margin-top: 30px;
+    display: flex;
+    margin-left: 7%;
+}
+
+.mobile {
+    width: 30%;
+    height: 340px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    box-shadow: 2px 4px 3px 1px gray;
+}
+
+.mobile img {
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    width: 70%;
+    height: 340px;
+    background-color: white;
+    left: 50%;
+    border-bottom: 2px solid gray;
+    border-top: 2px solid gray;
+    border-right: 2px solid gray;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 2px 4px 3px 1px gray;
+}
+
+p {
+    padding-left: 2%;
+}
+
+.name-of-mobile {
+    margin-top: 1%;
+    font-size: 200%;
+}
+
+.stars {
+    color: gold;
+    font-size: x-large;
+}
+
+.price {
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.add-to-cart {
+    padding: 10px;
+    border: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: yellow;
+    border-radius: 20px;
+}
+
+.add-to-cart:hover {
+    cursor: pointer;
+    background-color: rgb(238, 238, 68);
+}
+
+.save {
+    margin-top: 1%;
+}
+
+.save-1 {
+    background-color: greenyellow;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.save-2 {
+    background-color: red;
+    padding: 4px;
+    border-radius: 5px;
+    color: white;
+}
+
+.back-to-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+}
+
+.back-to-top {
+    width: 100%;
+    height: 5%;
+    background-color: rgb(107, 118, 243);
+}
+
+.back-to-top:hover {
+    background-color: #699edb;
+}
+
+.back-to-top button {
+    cursor: pointer;
+    border: none;
+    font-size: x-large;
+    background: transparent;
+    color: white;
+}
