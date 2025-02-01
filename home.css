@@ -210,30 +210,30 @@ ul {
     height: 500px;
     border: 2px solid white;
     box-shadow: 1px 2px 7px 3px white;
-    background-image: url(images/domino-studio-164_6wVEHfI-unspla.jpg);
+    background-image: url(domino-studio-164_6wVEHfI-unspla.jpg);
     background-size: 100% 100%;
     animation: ima 19s infinite linear;
 }
 
 @keyframes ima {
     7% {
-        background-image: url(images/domino-studio-164_6wVEHfI-unspla.jpg);
+        background-image: url(domino-studio-164_6wVEHfI-unspla.jpg);
     }
 
     35% {
-        background-image: url(images/bradley-ziffer-eAOl9QREIY0-unspl.jpg);
+        background-image: url(bradley-ziffer-eAOl9QREIY0-unspl.jpg);
     }
 
     55% {
-        background-image: url(images/patrick-perkins-3wylDrjxH-E-unsplash.jpg);
+        background-image: url(patrick-perkins-3wylDrjxH-E-unsplash.jpg);
     }
 
     75% {
-        background-image: url(images/theregisti-qt9_OfTaaeY-unsplash.jpg);
+        background-image: url(theregisti-qt9_OfTaaeY-unsplash.jpg);
     }
 
     95% {
-        background-image: url(images/tomasz-gawlowski-YDZPdqv3FcA-unsplash.jpg);
+        background-image: url(tomasz-gawlowski-YDZPdqv3FcA-unsplash.jpg);
     }
 }
 
